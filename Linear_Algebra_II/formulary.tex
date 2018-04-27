@@ -1,0 +1,58 @@
+\documentclass{report}
+\usepackage{amsmath}
+\title{Formulary Linear Algebra II}
+
+\begin{document}
+\chapter{Assignment Sheet 1}
+
+\chapter{Assignment Sheet 2}
+\section{•}
+\subsection{•}
+Equivalent matrix:
+$B=T^{-1}AS$
+
+Equivalence relation:
+\begin{enumerate}
+\item reflexive property $x=x$
+\item symmetric property $x=y \Rightarrow y=x$
+\item transitive property $a=b \land b=c \Rightarrow a=c$
+\end{enumerate}
+\subsection{•}
+Invertible Matrix:
+
+$$AA^{-1}=A^{-1}A=I$$
+
+For square matrices:
+
+$$det(A) \neq 0$$
+\subsection{•}
+Trivial.
+\subsection{•}
+Similar:
+
+$$B=T^{-1}AS$$ with $$T=S$$
+
+\section{•}
+Trivial.
+
+\section{•}
+
+\subsection{•}
+Determinant:
+\begin{itemize}
+\item$2\times2$:
+
+$$det(A)=det\begin{bmatrix}a&b\\c&d\\\end{bmatrix}=ad-bc$$
+\item$3\times3$:
+
+$$det(A)=det\begin{bmatrix}a&b&c\\d&e&f\\g&h&i\\\end{bmatrix}=adet\begin{bmatrix}e&f\\h&i\\\end{bmatrix}-bdet\begin{bmatrix}d&f\\g&i\\\end{bmatrix}+cdet\begin{bmatrix}d&e\\g&h\\\end{bmatrix}$$
+
+\item$n\times n$:
+
+$$det(A)=\sum_{\sigma\epsilon S_n}(sgn(\epsilon)\prod_{i=1}^{n}a_i,\sigma_i )$$
+
+Do note this is mostly irrelevant, since you can just perform something equivalent to a $3\times3$ determinant over and over again for larger matrices.
+\end{itemize}
+
+
+\end{document}
