@@ -1,10 +1,23 @@
 \documentclass{report}
 \usepackage{amsmath}
 \usepackage{esint}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+
+\newcommand{\rm}{\textrm}
+\newcommand{\vphi}{\varphi}
+\newcommand{\lag}{\mathcal{L}}
+\newcommand{\ham}{\mathcal{H}}
+\newcommand{\prt}[2]{\frac{\partial #1}{\partial #2}}
+
 \title{Formulary Theoretical Physics I}
 
+\renewcommand*\thesection{\arabic{section}}
+\renewcommand{\chaptername}{Übungs Blatt}
+\renewcommand{\thesubsection}{\alph{subsection})}
+
 \begin{document}
-\chapter{Assignment Sheet 1}
+\chapter{}
 
 \section{}
 
@@ -31,7 +44,7 @@ Trivial.
 Trivial (differential equations).
 \subsection{}
 Trivial.
-\chapter{Assignment Sheet 2}
+\chapter{}
 
 \section{}
 
@@ -52,6 +65,64 @@ $$\oiint_{\displaystyle \scriptstyle \partial V} {\displaystyle \mathbf {g} \cdo
 \subsection{}
 
 \subsection{}
+
+\chapter{}
+
+\chapter{}
+
+\chapter{}
+
+\chapter{}
+
+\chapter{}
+
+\chapter{}
+
+\chapter{}
+
+\chapter{}
+
+\section{}
+
+\subsection{}
+
+$$V=\rho\int_{-a/2}^{a/2}\int_{-b/2}^{b/2}\int_{-c/2}^{c/2}[(\vec{r}^2\delta_{ij}-r_ir_j]dV$$
+
+\subsection{}
+
+$$\frac{1}{2}\omega^T(V)\omega$$
+
+\section{}
+
+\subsection{}
+
+$$p_\phi=I_1\sin^2\theta\dot\vphi+I_3(\dot\psi+\dot\vphi\cos\theta)\cos\theta$$
+$$p_\psi=I_3(\dot\psi+\dot\vphi\cos\theta)$$
+
+\subsection{}
+Einsetzen.
+
+\subsection{}
+$$\rm{Taylor Series: }{f(a)+{\frac {f'(a)}{1!}}(x-a)+{\frac{f''(a)}{2!}}(x-a)^{2}+{\frac{f'''(a)}{3!}}(x-a)^{3}+\cdots}$$
+
+$$\rm{L'Hopital: }\lim_{x\rightarrow c}\frac{f(x)}{g(x)}= \lim_{x\rightarrow c}\frac{f'(x)}{g'(x)}$$
+
+
+\section{}
+\begin{description}
+\item [Hamilton Funktion:]
+$$\ham(q,p,t):={\sum_{i=1}\dot q_i p_i}- \lag( q , \dot q , t ) ,  \textrm{ with  }\dot q = \dot q ( q , p , t )$$
+\item [Hamiltonischen Gleichungen:]
+$$\dot q_i = \frac{\partial \ham}{\partial p_i} \qquad \dot p_i = -\frac{\partial\ham}{\partial q_i} \qquad i = 1, \dots n$$
+\item [Totale Zeit Ableitung]
+$$\frac{d \ham}{dt} = \sum_{i=1}^{n} \bigg ( \prt{\ham}{q_i} \dot q_i + \prt{\ham}{p_i} \dot p_i \bigg ) + \prt{\ham}{t}$$
+\end{description}
+\section{}
+
+kek
+
+\chapter{Assignment Sheet 11}
+
 
 
 \end{document}

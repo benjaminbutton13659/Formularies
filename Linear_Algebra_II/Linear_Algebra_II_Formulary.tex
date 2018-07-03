@@ -3,8 +3,19 @@
 \usepackage{hyperref}
 \title{Formulary Linear Algebra II}
 
+
+\newcommand{\rm}{\textrm}
+\newcommand{\dim}{\textrm{dim}}
+\newcommand{\det}{\textrm{det}}
+\newcommand{\Ker}{\textrm{Ker}}
+\newcommand{\im}{\textrm{im}}
+
+\renewcommand*\thesection{\arabic{section}}
+\renewcommand{\chaptername}{\"Ubungs Blatt}
+\renewcommand{\thesubsection}{\alph{subsection})}
+
 \begin{document}
-\chapter{Assignment Sheet 1}
+\chapter{}
 
 \section{}
 Trivial.
@@ -46,7 +57,7 @@ A monic polynomial is a polynomial where the leading coefficient is equal to 1.
 \subsection{}
 A is a divisor of B $\Rightarrow B=A\times C$.
 
-\chapter{Assignment Sheet 2}
+\chapter{}
 \section{•}
 \subsection{•}
 Equivalent matrix:
@@ -73,7 +84,7 @@ Similar:
 $$B=T^{-1}AS\textrm{, where }T=S$$
 
 \section{•}
-$$dim(V)=dim(Ker(V))+dim(Im(V))$$
+$$\dim(V)=\dim(\Ker(V))+d\im(\im(V))$$
 
 \section{•}
 
@@ -82,21 +93,21 @@ Determinant:
 \begin{itemize}
 \item$2\times2$:
 
-$$det(A)=det\begin{bmatrix}a&b\\c&d\\\end{bmatrix}=ad-bc$$
+$$\det(A)=\det\begin{bmatrix}a&b\\c&d\\\end{bmatrix}=ad-bc$$
 \item$3\times3$:
 
-$$det(A)=det\begin{bmatrix}a&b&c\\d&e&f\\g&h&i\\\end{bmatrix}=adet\begin{bmatrix}e&f\\h&i\\\end{bmatrix}-bdet\begin{bmatrix}d&f\\g&i\\\end{bmatrix}+cdet\begin{bmatrix}d&e\\g&h\\\end{bmatrix}$$
+$$\det(A)=\det\begin{bmatrix}a&b&c\\d&e&f\\g&h&i\\\end{bmatrix}=a\det\begin{bmatrix}e&f\\h&i\\\end{bmatrix}-b\det\begin{bmatrix}d&f\\g&i\\\end{bmatrix}+c\det\begin{bmatrix}d&e\\g&h\\\end{bmatrix}$$
 
 \item$n\times n$:
 
-$$det(A)=\sum_{\sigma\in S_n}(sgn(\sigma)\prod_{i=1}^{n}a_i,\sigma_i )$$
+$$\det(A)=\sum_{\sigma\in S_n}(\rm{sgn}(\sigma)\prod_{i=1}^{n}a_i,\sigma_i )$$
 
 Do note this is mostly irrelevant, since you can just perform something equivalent to a $3\times3$ determinant over and over again for larger matrices.
 \end{itemize}
 
 \subsection{}
 Inverse matrix for $3\times3$ matrices:
-$$A^{-1}=\frac{1}{det(A)}\times adj(A)$$
+$$A^{-1}=\frac{1}{\det(A)}\times \rm{adj}(A)$$
 \url{https://en.wikipedia.org/wiki/Adjugate_matrix}
 
 \section{}
@@ -106,13 +117,13 @@ Trivial.
 
 \subsection{}
 
-$F(U)\subset U$ if all bases of F(U) are in U, but $dim(F(U))< dim(U)$.
+$F(U)\subset U$ if all bases of $F(U)$ are in $U$, but $\dim(F(U))< \dim(U)$.
 
-\chapter{Assignment Sheet 3}
+\chapter{}
 
 \section{}
 
-$$dim(V)=dim(U)+dim(V/U)$$
+$$\dim(V)=\dim(U)+\dim(V/U)$$
 
 \section{}
 
@@ -136,5 +147,66 @@ A polynomial of an odd-numbered degree will always go through zero at least once
 
 \subsection{}
 
+\chapter{}
+
+\chapter{}
+
+\chapter{}
+
+\chapter{}
+
+\chapter{}
+
+\chapter{}
+
+\chapter{}
+
+\section{}
+
+\label{norm}$$\|v\|=\sqrt{\sum_{i=1}^n(v_i)^2}$$
+
+$$\rm{orthogonal }\Leftrightarrow <v,u> = 0 \Leftrightarrow \sum_{i=1}^nv_iu_i=0$$
+
+\section{}
+
+\url{https://en.wikipedia.org/wiki/Orthogonal_complement}
+\\
+\\
+Norm: \ref{norm}
+
+\section{}
+
+\subsection{}
+
+"$(V,<,>)$ ist ein euklidischer Raum, wenn $V$ ein endlichdimensionaler $\mathbb{R}$-Vektorraum und $<,>$ ein Skalarprodukt ist."
+\\
+\\
+"Ein Skalarprodukt auf einem endlichdimensionalen $\mathbb{R}$-Vektorraum $V$ ist eine positiv definite symmetrische Bilinearform: $\vphi(u,v)\mapsto<u,v>$."
+\\
+\\
+\label{posdef}A matrix M is positive definite if $\forall v>0\in \mathbb{N}: v^\top M v > 0$.
+\\
+\\
+A symmetrical bilinear form is a bilinear form so that $B(u,v)=B(v,u)$.
+
+\subsection{}
+
+\subsection{}
+
+\subsection{}
+
+\section{}
+
+\subsection{}
+
+A symmetrical matrix is a matrix $A$ so that $A=A^\top$.
+
+\subsection{}
+
+\ref{posdef} Positive definite matrix.
+
+\chapter{}
+
+\chapter{}
 
 \end{document}
