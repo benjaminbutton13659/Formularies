@@ -1,17 +1,3 @@
 # Formularies
 
-⠀⠰⡿⠿⠛⠛⠻⠿⣷
-⠀⠀⠀⠀⠀⠀⣀⣄⡀⠀⠀⠀⠀⢀⣀⣀⣤⣄⣀⡀
-⠀⠀⠀⠀⠀⢸⣿⣿⣷⠀⠀⠀⠀⠛⠛⣿⣿⣿⡛⠿⠷
-⠀⠀⠀⠀⠀⠘⠿⠿⠋⠀⠀⠀⠀⠀⠀⣿⣿⣿⠇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁
-
-⠀⠀⠀⠀⣿⣷⣄⠀⢶⣶⣷⣶⣶⣤⣀
-⠀⠀⠀⠀⣿⣿⣿⠀⠀⠀⠀⠀⠈⠙⠻⠗
-⠀⠀⠀⣰⣿⣿⣿⠀⠀⠀⠀⢀⣀⣠⣤⣴⣶⡄
-⠀⣠⣾⣿⣿⣿⣥⣶⣶⣿⣿⣿⣿⣿⠿⠿⠛⠃
-⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄
-⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡁
-⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁
-⠀⠀⠛⢿⣿⣿⣿⣿⣿⣿⡿⠟
-⠀⠀⠀⠀⠀⠉⠉⠉
+You'd actually have to have a high IQ and be emotional strong to have a body pillow, because not only does it require a high IQ to bring a body pillow a live in your imagination, it also requires a lot of mental and psychological stamina to maintain a happy body pillow since they do require a lot of work to have around and especially if you are storing them in the bed. Furthermore, people who are attached to bodypillows have a high tendency to be multilingual and know complex words like kawaii, watashi and sugoi, which definitely shouldn't be underestimated because their meanings are very subtle so they require an immense amount of intelligence to fully understand and an even higher IQ to use in the everyday life. With this said it is only logical to pay a lot of respect and admire those who keep bodypillows in their room of their mom's basement, everything else would be undeniable irrational and absolutely moronic.
